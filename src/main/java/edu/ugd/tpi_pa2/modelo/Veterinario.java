@@ -9,5 +9,7 @@ package edu.ugd.tpi_pa2.modelo;
  * @author wowle
  */
 public class Veterinario {
+    private String nomVeterinario;
+    
     
 }
