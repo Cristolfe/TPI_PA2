@@ -11,18 +11,25 @@ import java.time.LocalDateTime;
  * @author wowle
  */
 public class Tarea {
+    private String tipoTarea;
     private String ubicacion;
     private String nomVoluntario;
     private LocalDate fecha;
     private LocalTime hora;
 
-    public Tarea(String ubicacion, String nomVoluntario, LocalDate fecha, LocalTime hora) {
+    public Tarea(String tipoTarea, String ubicacion, String nomVoluntario, LocalDate fecha, LocalTime hora) {
+        this.tipoTarea = tipoTarea;
         this.ubicacion = ubicacion;
         this.nomVoluntario = nomVoluntario;
         this.fecha = fecha;
         this.hora = hora;
     }
 
+    public String getTipoTarea() {
+        return tipoTarea;
+    }
+    
+    
     public String getUbicacion() {
         return ubicacion;
     }
@@ -56,6 +63,9 @@ public class Tarea {
     }
     
     
-    
+    public void setTipoTarea(String tipoTarea){
+        this.tipoTarea = tipoTarea;
+    }
+
     
 }

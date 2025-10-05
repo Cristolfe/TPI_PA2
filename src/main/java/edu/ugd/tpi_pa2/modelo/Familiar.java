@@ -9,6 +9,9 @@ package edu.ugd.tpi_pa2.modelo;
  * @author wowle
  */
 public class Familiar {
+    private int dniFamiliar;
+    private String nomFamiliar;
+    private String direccionFamiliar;
     
     
     

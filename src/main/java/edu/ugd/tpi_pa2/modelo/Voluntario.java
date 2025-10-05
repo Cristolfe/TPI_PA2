@@ -9,5 +9,11 @@ package edu.ugd.tpi_pa2.modelo;
  * @author wowle
  */
 public class Voluntario {
+    private String nomVoluntario;
+    private int dniVoluntario;
+    
+    
+    
+    
     
 }
