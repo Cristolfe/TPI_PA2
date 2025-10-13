@@ -8,7 +8,6 @@ package edu.ugd.tpi_pa2.modelo;
  *
  * @author wowle
  */
-public class Hogar {
-    
+public class HistorialMedico {
     
 }

@@ -8,10 +8,8 @@ package edu.ugd.tpi_pa2.modelo;
  *
  * @author wowle
  */
-public class Voluntario extends Usuario{
-     
-    
-    
+public class Familia extends Usuario{
+ 
     
     
     
